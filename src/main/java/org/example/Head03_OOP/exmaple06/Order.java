@@ -8,4 +8,7 @@ public class Order {
     public void process(double amount){
         payment.pay(amount);
     }
+    public void cancel(double amount){
+        payment.cancel(amount);
+    }
 }
